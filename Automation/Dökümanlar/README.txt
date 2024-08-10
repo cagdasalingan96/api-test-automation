@@ -1,0 +1,1 @@
+Hocam gitlab pipelines kısmındada test süreci yürütecektim fakat verify işlemi gerçekleştirilemiyor bu sebeple ne yazık ki o kısımlar bulunmuyor. 
