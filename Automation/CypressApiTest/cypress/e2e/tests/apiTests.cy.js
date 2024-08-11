@@ -71,7 +71,7 @@ describe('User Tests', () => {
   })
 
   it(' get dog id ', () => {
-    cy.request('GET', url+'/v2/pet/9222968140497186340')
+    cy.request('GET', url+'/v2/pet/9223372036854750694')
     .then((response) => {
       expect(response.status).to.eq(200)
     })
@@ -106,7 +106,7 @@ describe('User Tests', () => {
 
     cy.request({
       method: 'DELETE',
-      url: url+'/v2/pet/9222968140497186340',
+      url: url+'/v2/pet/9223372036854750694',
       Headers: data.headerPayload()
     })
     .then((response) => {
